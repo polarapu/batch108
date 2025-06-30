@@ -1,0 +1,55 @@
+touch file1
+touch file2 file3
+
+cat
+===
+cat > file4
+....
+....
+ctrl+d
+
+cat file4
+
+cat >> file4
+....
+....
+ctrl+d
+
+
+vi
+===
+vi file5
+--------
+esc i
+......
+......
+......
+esc :w!
+    :q!
+or
+esc :wq!
+
+
+dd - delete a line
+ndd - no.of lines
+u - undo
+yy - copy a line
+nyy - no.of lines copy
+p - paste
+dw - delete a word
+ndw - no.of words
+x - char delete
+r- replacement
+R - con replacement
+o - below the courser new line
+O - above the courser new line
+G - ground
+H - head
+$ - end of the lines
+^ - starting of the line
+a - append
+
+
+:set nu
+:set nonu
+/string
